@@ -1,6 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 
+// Bootstrap
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.js';
+
+
 function App() {
   return (
     <div className="App">
