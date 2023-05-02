@@ -3,7 +3,6 @@ import './App.css';
 
 // Bootstrap
 import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap/dist/js/bootstrap.js';
 
 // Router
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
