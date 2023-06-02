@@ -2,19 +2,19 @@ import React from 'react';
 
 // components
 import Menu from '../components/Menu';
-import Tasks from '../components/TasksList'
+import TasksList from '../components/TasksList'
 
-function Home() {
+function Task() {
   return (
     <><Menu />
 
       <div>
-        <h1>Task List HOME</h1>
-        <Tasks />
+        <h1>Task List</h1>
+        <TasksList />
       </div>
 
     </>
   );
 }
 
-export default Home;
+export default Task;

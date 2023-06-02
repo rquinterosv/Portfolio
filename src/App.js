@@ -9,6 +9,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 //Pages 
 import Home from './pages/Home';
+import Task from './pages/Task';
 
 
     function App() {
@@ -17,6 +18,7 @@ import Home from './pages/Home';
           <div className="App">
           <Routes>
             <Route exact path="/" element={<Home />} />
+            <Route exact path="/task" element={<Task />} />
           </Routes>
           </div>
         </BrowserRouter>
