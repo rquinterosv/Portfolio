@@ -1,4 +1,6 @@
 import React from 'react';
+import '../App.css';
+
 
 // components
 import Menu from '../components/Menu';
@@ -8,7 +10,7 @@ function Home() {
   return (
     <><Menu />
 
-      <div>
+      <div className='home-body'>
         <h1>Task List HOME</h1>
         <Tasks />
       </div>
